@@ -48,6 +48,12 @@ LINKÖPING UNIVERSITY, SWEDEN • Semester Exchange Jan 2024 – Jun 2024
 • Relevant Coursework – Natural Language Processing, Advanced Software Engineering
 
 PROFESSIONAL EXPERIENCE
+M-LABS Pte. Ltd. Dec 2024 – Current
+Software Development Intern
+• Developed and enhanced ARTIQ, an open-source control compiler for quantum physics experiments
+• Improved NAC3 by adding new features to speed up Python compilation
+• Documented the codebase for the ease of users and developers
+
 Innova8s Pte. Ltd. Aug 2024 – Sept 2024
 Computer Vision Intern
 • Developed and trained deep-learning models for cattle monitoring and detection, enhancing detection
