@@ -15,12 +15,12 @@ const About = () => {
     achievements: [
       "Led teams of 5+ developers in multiple projects",
       "Improved model accuracies by 15-25% in professional settings",
-      "Contributed to open-source AI projects",
-      "Participated in international hackathons"
+      "Contributed to open-source AI projects"
     ],
     languages: {
       programming: [
         "Python", 
+        "Rust",
         "C++", 
         "JavaScript", 
         "Java",
