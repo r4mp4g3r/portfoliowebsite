@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const experiences = [
 {    company: "M-Labs Pte. Ltd,",
      role: "Software Developer Intern",
-     duration: "Dec 2024 -  Current",
+     duration: "Dec 2024 -  May 2025",
      points: [
         "Developed and enhanced ARTIQ, an open-source control compiler for quantum physics experiments",
         "Improved NAC3 by adding new features to speed up Python compilation",
