@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   const personalInfo = {
-    introduction: `I'm a final-year Computer Science student at NTU, specializing in Artificial Intelligence. With a passion for developing AI solutions and building innovative applications, I've gained hands-on experience through internships at Panasonic R&D and Innova8s.`,
+    introduction: `I'm a first-year Master's in Computer Science student at LiU, specializing in Artificial Intelligence. With a passion for developing AI solutions and building innovative applications, I've gained hands-on experience through internships at Panasonic R&D and M-Labs`,
     interests: [
       "Artificial Intelligence & Machine Learning",
       "Computer Vision & Image Processing",
@@ -226,6 +226,22 @@ const About = () => {
             {/* Education Section */}
             <h3 className="text-2xl font-semibold mb-4 text-blue-500">Education</h3>
             <div className="space-y-4">
+              {/* LiU*/}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.5 }}
+                viewport={{ once: true }}
+                className="bg-gray-800/50 p-6 rounded-lg"
+              >
+                <h4 className="text-xl font-bold">Linköping University</h4>
+                <p className="text-gray-400">Master's in Computer Science</p>
+                <p className="text-gray-400">Aug 2025 – Current</p>
+                <ul className="list-disc list-inside mt-2 text-gray-300">
+                  <li>Specialisation in Artificial Intelligence</li>
+                  <li>Key Coursework: Advanced Machine Learning, Advanced C++, Text Mining</li>
+                </ul>
+              </motion.div>
               {/* NTU */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
