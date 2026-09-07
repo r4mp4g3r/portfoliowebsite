@@ -33,7 +33,7 @@ const Hero = () => {
               repeat={Infinity}
             />
             <p className="mt-4 text-lg text-gray-400">
-              Computer Science Student at NTU, Singapore
+              Master's in Computer Science Student specializing in AI/ML at Linköping University
             </p>
             <div className="mt-6 space-x-4">
               <a

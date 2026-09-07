@@ -48,7 +48,24 @@ LINKÖPING UNIVERSITY, SWEDEN • Semester Exchange Jan 2024 – Jun 2024
 • Relevant Coursework – Natural Language Processing, Advanced Software Engineering
 
 PROFESSIONAL EXPERIENCE
-M-LABS Pte. Ltd. Dec 2024 – Current
+Outby AB Mar 2026 – Current
+Software Engineer Intern
+• Led end-to-end integration of printers via Server Direct Print (SDP), enabling automatic receipt printing
+• Built full-stack admin tooling (Django API + React) and field setup documentation
+• Resolved customer support tickets and improved admin UX flows for the company's platform
+
+Zavior Pte. Ltd. Jul 2024 – Current
+Product Management Intern
+• Designed and built agentic AI workflows to automate multi-step user tasks and internal operational processes
+• Built and iterated on full-stack (frontend and backend) product features based on product analytics and direct user feedback
+• Collaborated with cross-functional stakeholders to translate business requirements into scalable technical solutions
+
+Linköping University Nov 2025 – Jan 2026
+Teaching Assistant, Machine Learning
+• Assisted students in understanding complex machine learning concepts and debugging R code implementations
+• Graded assignments and provided constructive feedback to improve student learning outcomes
+
+M-LABS Pte. Ltd. Dec 2024 – May 2025
 Software Development Intern
 • Developed and enhanced ARTIQ, an open-source control compiler for quantum physics experiments
 • Improved NAC3 by adding new features to speed up Python compilation

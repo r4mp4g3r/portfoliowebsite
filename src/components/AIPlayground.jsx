@@ -31,7 +31,7 @@ const AIPlayground = () => {
   const [chatMessages, setChatMessages] = useState([
     { 
       role: 'assistant', 
-      content: "Hi! I'm Ram, a Computer Science student specializing in AI/ML at NTU. I'm passionate about developing AI solutions and building innovative applications. What would you like to know about my journey?" 
+      content: "Hi! I'm Ram, a Master's in Computer Science student specializing in AI/ML at Linköping University (LiU). I'm passionate about developing AI solutions and building innovative applications. What would you like to know about my journey?"
     }
   ]);
   const [userInput, setUserInput] = useState('');
@@ -237,6 +237,9 @@ ${JSON.stringify(personalData, null, 2)}`;
     scrollToBottom();
 
     try {
+      if (!openai) {
+        throw new Error('AI assistant is not configured (missing API key).');
+      }
       const completion = await openai.chat.completions.create({
         model: "gpt-3.5-turbo-0125",
         messages: [
@@ -252,7 +255,7 @@ ${JSON.stringify(personalData, null, 2)}`;
       scrollToBottom();
     } catch (error) {
       console.error('Error:', error);
-      setError('Failed to get response. Please try again.');
+      setError(error.message || 'Failed to get response. Please try again.');
     } finally {
       setIsTyping(false);
     }
@@ -369,6 +372,17 @@ ${JSON.stringify(personalData, null, 2)}`;
                     </div>
                   </motion.div>
                 ))}
+                {error && (
+                  <motion.div
+                    className="flex justify-start"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                  >
+                    <div className="max-w-[80%] rounded-2xl p-4 bg-red-500/20 text-red-300 border border-red-500/30">
+                      {error}
+                    </div>
+                  </motion.div>
+                )}
                 {isTyping && (
                   <motion.div 
                     className="flex items-center space-x-2 text-gray-400 pl-4"

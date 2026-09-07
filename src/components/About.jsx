@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   const personalInfo = {
-    introduction: `I'm a first-year Master's in Computer Science student at LiU, specializing in Artificial Intelligence. With a passion for developing AI solutions and building innovative applications, I've gained hands-on experience through internships at Panasonic R&D and M-Labs`,
+    introduction: `I'm a second-year Master's in Computer Science student at Linköping University (LiU), specializing in AI/ML, and a LiU International Scholar. With a passion for developing AI solutions and building innovative applications, I've gained hands-on experience through internships at Panasonic R&D and M-Labs`,
     interests: [
       "Artificial Intelligence & Machine Learning",
       "Computer Vision & Image Processing",
@@ -238,6 +238,7 @@ const About = () => {
                 <p className="text-gray-400">Master's in Computer Science</p>
                 <p className="text-gray-400">Aug 2025 – Current</p>
                 <ul className="list-disc list-inside mt-2 text-gray-300">
+                  <li>LiU International Scholar</li>
                   <li>Specialisation in Artificial Intelligence</li>
                   <li>Key Coursework: Advanced Machine Learning, Advanced C++, Text Mining</li>
                 </ul>

@@ -3,7 +3,39 @@ import { motion } from 'framer-motion';
 
 const experiences = [
   {
-    date: "Dec 2024 - Current",
+    date: "Mar 2026 - Present",
+    company: "Outby AB",
+    role: "Software Engineer Intern",
+    points: [
+      "Led end-to-end integration of printers via Server Direct Print (SDP), enabling automatic receipt printing",
+      "Built full-stack admin tooling (Django API + React) and field setup documentation",
+      "Resolved customer support tickets and improved admin UX flows for the company's platform"
+    ],
+    tech: ["Django", "React", "Full-Stack Development", "Customer Support"]
+  },
+  {
+    date: "Jul 2024 - Present",
+    company: "Zavior Pte. Ltd.",
+    role: "Product Management Intern",
+    points: [
+      "Designed and built agentic AI workflows to automate multi-step user tasks and internal operational processes",
+      "Built and iterated on full-stack (frontend and backend) product features based on product analytics and direct user feedback",
+      "Collaborated with cross-functional stakeholders to translate business requirements into scalable technical solutions"
+    ],
+    tech: ["Agentic AI", "Product Management", "Full-Stack Development"]
+  },
+  {
+    date: "Nov 2025 - Jan 2026",
+    company: "Linköping University",
+    role: "Teaching Assistant, Machine Learning",
+    points: [
+      "Assisted students in understanding complex machine learning concepts and debugging R code implementations",
+      "Graded assignments and provided constructive feedback to improve student learning outcomes"
+    ],
+    tech: ["Machine Learning", "R", "Teaching"]
+  },
+  {
+    date: "Dec 2024 - May 2025",
     company: "M-Labs Pte. Ltd",
     role: "Software Developer Intern",
     points: [
