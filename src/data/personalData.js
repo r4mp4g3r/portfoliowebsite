@@ -13,9 +13,16 @@ Pachigulla Ramtej
 RAMTEJ001@e.ntu.edu.sg | +65 9632 7320 | Singaporean
 linkedin.com/in/pachigulla-ramtej/
 English, Telugu, Hindi, Swedish, Malay
-24 years old
+
+CURRENT STATUS: Second-year Master's in Computer Science student at Linköping University (LiU), Sweden, specializing in AI/ML, and a LiU International Scholar. This is my current, most up-to-date status — I am no longer a student at NTU (I graduated from NTU in Jun 2025) and the "Semester Exchange" entry below is from an earlier, separate, and now-completed exchange in 2024, not my current program.
 
 EDUCATION
+LINKÖPING UNIVERSITY, SWEDEN Aug 2025 – Current
+Master's in Computer Science
+• LiU International Scholar
+• Specialisation – Artificial Intelligence / AI-ML
+• Relevant Coursework – Advanced Machine Learning, Deep Learning, Neural Networks and Learning Systems
+
 NANYANG TECHNOLOGICAL UNIVERSITY, SINGAPORE Aug 2021 – Jun 2025
 Bachelor of Computing (Honours), Computer Science
 • Specialization – Artificial Intelligence
