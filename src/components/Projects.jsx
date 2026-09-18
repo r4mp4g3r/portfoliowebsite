@@ -4,11 +4,11 @@ import { motion } from 'framer-motion';
 
 const projects = [
 {
-    title: "Sketch-based Animation with AI Colorization",
+    title: "Integrating Sketch-based Animation and Realistic Colourisation with User-Driven Prompts",
     description: "Final Year Project developing an AI-powered tool that transforms sketches and textual descriptions into colorized animations.",
     tech: ["Python", "TensorFlow", "GANs", "NLP", "PyTorch"],
     type: "AI/ML",
-    status: "In Progress"
+    status: "Completed"
     } ,
  
  {

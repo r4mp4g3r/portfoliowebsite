@@ -137,13 +137,13 @@ Project Management
 • Language: Proficient in English and Hindi, Basic in Malay and Swedish
 
 PROJECTS
-Final Year Project
-Title: Integrating Sketch-based Animation and Realistic Colorization with User-Driven Prompts
-• Objective: To develop an AI-powered tool that transforms simple sketches and textual descriptions into
+Final Year Project (Completed)
+Title: Integrating Sketch-based Animation and Realistic Colourisation with User-Driven Prompts
+• Objective: Developed an AI-powered tool that transforms simple sketches and textual descriptions into
 fully colorized animations
 • Technologies Used: Python, TensorFlow, Generative Adversarial Networks (GANs), NLP techniques,
 PyTorch
-• Currently collecting datasets and preprocessing data
+• Status: Completed
 
 Amend.id
 Full-Stack Web Development Project
